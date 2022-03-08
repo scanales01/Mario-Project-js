@@ -1,0 +1,41 @@
+:root {
+    --font-family: "Roboto", sans-serf;
+    --normal-font: 400;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --bg-color: #FBF3E4;
+    --primary-color: #B91646;
+    --secondary-color: #105652;
+    --primary-shadow: #DFD8CA;
+    --secondary-shadow: #a17a69;
+    --bottom-margin: 0.5rem;
+    --bottom-margin-2: 1rem;
+    --line-height: 1.7rem;
+    --transition: 0.3s;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* CSS Resets */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+  }
+
+  body {
+      background-color: var(--secondary-color);
+  }
+  #game-box {
+      margin-top: 100;
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      border-radius: 5px;
+      border: 2px groove var(--primary-shadow)
+  } 
